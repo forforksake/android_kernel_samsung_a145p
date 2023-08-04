@@ -670,7 +670,7 @@ static struct spi_driver jadard_common_driver = {
 static int jadard_detect_panel(void)
 {
     /*hs14 code for AL6528ADEU-723 by hehaoran5 at 20221021 start*/
-    if (tp_get_boot_mode() != NORMAL_BOOT) {
+    if (tp_get_boot_mode() != RECOVERY_BOOT) {
         JD_E("tp init fail because boot_mode = %d\n",tp_get_boot_mode());
         return -EINVAL;
     }

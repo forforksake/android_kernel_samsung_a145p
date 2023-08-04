@@ -1011,8 +1011,7 @@ int cts_plat_process_touch_msg(struct cts_platform_data *pdata,
                 tpd_history_y = y;
 #ifdef CONFIG_MTK_BOOT
                 if (tpd_dts_data.use_tpd_button) {
-                    if (FACTORY_BOOT == get_boot_mode() ||
-                        RECOVERY_BOOT == get_boot_mode())
+                    if (FACTORY_BOOT == get_boot_mode())
                         tpd_button(x, y, 1);
                 }
 #endif /* CONFIG_MTK_BOOT */
@@ -1033,8 +1032,7 @@ int cts_plat_process_touch_msg(struct cts_platform_data *pdata,
                 tpd_history_y = 0;
 #ifdef CONFIG_MTK_BOOT
                 if (tpd_dts_data.use_tpd_button) {
-                    if (FACTORY_BOOT == get_boot_mode() ||
-                        RECOVERY_BOOT == get_boot_mode())
+                    if (FACTORY_BOOT == get_boot_mode())
                         tpd_button(0, 0, 0);
                 }
 #endif /* CONFIG_MTK_BOOT */
@@ -1085,9 +1083,9 @@ int cts_plat_process_touch_msg(struct cts_platform_data *pdata,
         }
         finger_last[i] = finger_current[i];
     }
-
-    if (tpd->tp_is_enabled)
-        input_report_key(input_dev, BTN_TOUCH, contact > 0);
+	
+	if (tpd->tp_is_enabled)
+    	input_report_key(input_dev, BTN_TOUCH, contact > 0);
 #else
     if (contact == 0) {
         input_report_key(input_dev, BTN_TOUCH, 0);
