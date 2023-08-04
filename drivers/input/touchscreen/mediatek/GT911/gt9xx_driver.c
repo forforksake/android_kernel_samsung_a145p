@@ -1333,13 +1333,6 @@ static void tpd_down(s32 x, s32 y, s32 size, s32 id)
 
 /* MMProfileLogEx(MMP_TouchPanelEvent, MMProfileFlagPulse, 1, x + y); */
 
-#ifdef CONFIG_MTK_BOOT
-	if (tpd_dts_data.use_tpd_button) {
-		if (get_boot_mode() == FACTORY_BOOT ||
-		    get_boot_mode() == RECOVERY_BOOT)
-			tpd_button(x, y, 1);
-	}
-#endif
 }
 
 static void tpd_up(s32 x, s32 y, s32 id)
@@ -1355,13 +1348,6 @@ static void tpd_up(s32 x, s32 y, s32 id)
 	tpd_history_y = 0;
 /* MMProfileLogEx(MMP_TouchPanelEvent, MMProfileFlagPulse, 0, x + y); */
 
-#ifdef CONFIG_MTK_BOOT
-	if (tpd_dts_data.use_tpd_button) {
-		if (get_boot_mode() == FACTORY_BOOT ||
-		    get_boot_mode() == RECOVERY_BOOT)
-			tpd_button(x, y, 0);
-	}
-#endif
 }
 
 /*Coordination mapping*/
