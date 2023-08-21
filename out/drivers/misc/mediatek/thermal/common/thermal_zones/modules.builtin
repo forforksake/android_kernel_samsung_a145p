@@ -1,0 +1,13 @@
+kernel/drivers/misc/mediatek/thermal/common/thermal_zones/mtk_ts_battery.ko
+kernel/drivers/misc/mediatek/thermal/common/thermal_zones/mtk_ts_bts.ko
+kernel/drivers/misc/mediatek/thermal/common/thermal_zones/mtk_ts_btsmdpa.ko
+kernel/drivers/misc/mediatek/thermal/common/thermal_zones/mtk_ts_cpu_noBank.ko
+kernel/drivers/misc/mediatek/thermal/common/thermal_zones/mtk_ts_pa.ko
+kernel/drivers/misc/mediatek/thermal/common/thermal_zones/mtk_ts_pa_thput.ko
+kernel/drivers/misc/mediatek/thermal/common/thermal_zones/mtk_ts_btscharger.ko
+kernel/drivers/misc/mediatek/thermal/common/thermal_zones/mtk_ts_usb.ko
+kernel/drivers/misc/mediatek/thermal/common/thermal_zones/mtk_ts_wmt.ko
+kernel/drivers/misc/mediatek/thermal/common/thermal_zones/mtk_tsAll.ko
+kernel/drivers/misc/mediatek/thermal/common/thermal_zones/mtk_ts_imgsensor.ko
+kernel/drivers/misc/mediatek/thermal/common/thermal_zones/mtk_ts_dctm.ko
+kernel/drivers/misc/mediatek/thermal/common/thermal_zones/mtk_ts_pmic.ko

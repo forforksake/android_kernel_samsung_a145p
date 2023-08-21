@@ -1,0 +1,3 @@
+kernel/drivers/input/fingerprint_O22/silead/silead_fp.ko
+kernel/drivers/input/fingerprint_O22/silead/silead_fp_stub.ko
+kernel/drivers/input/fingerprint_O22/silead/silead_fp_spi.ko

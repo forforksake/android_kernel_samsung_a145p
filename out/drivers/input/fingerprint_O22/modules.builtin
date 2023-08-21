@@ -1,0 +1,6 @@
+kernel/drivers/input/fingerprint_O22/fingerprint_sysfs.ko
+kernel/drivers/input/fingerprint_O22/cdfinger/cdfingerfp.ko
+kernel/drivers/input/fingerprint_O22/focaltech/focaltech_fp.ko
+kernel/drivers/input/fingerprint_O22/silead/silead_fp.ko
+kernel/drivers/input/fingerprint_O22/silead/silead_fp_stub.ko
+kernel/drivers/input/fingerprint_O22/silead/silead_fp_spi.ko

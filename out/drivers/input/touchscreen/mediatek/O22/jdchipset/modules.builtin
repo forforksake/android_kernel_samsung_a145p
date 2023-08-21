@@ -1,0 +1,7 @@
+kernel/drivers/input/touchscreen/mediatek/O22/jdchipset/jadard_module.ko
+kernel/drivers/input/touchscreen/mediatek/O22/jdchipset/jadard_ic_JD9522T.ko
+kernel/drivers/input/touchscreen/mediatek/O22/jdchipset/jadard_common.ko
+kernel/drivers/input/touchscreen/mediatek/O22/jdchipset/jadard_platform.ko
+kernel/drivers/input/touchscreen/mediatek/O22/jdchipset/jadard_debug.ko
+kernel/drivers/input/touchscreen/mediatek/O22/jdchipset/jadard_sorting.ko
+kernel/drivers/input/touchscreen/mediatek/O22/jdchipset/jadard_sec.ko

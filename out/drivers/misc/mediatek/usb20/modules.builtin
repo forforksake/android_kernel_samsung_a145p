@@ -1,0 +1,4 @@
+kernel/drivers/misc/mediatek/usb20/musb_hdrc.ko
+kernel/drivers/misc/mediatek/usb20/musbhsdma.ko
+kernel/drivers/misc/mediatek/usb20/mt6768/usb20.ko
+kernel/drivers/misc/mediatek/usb20/mt6768/usb20_host.ko

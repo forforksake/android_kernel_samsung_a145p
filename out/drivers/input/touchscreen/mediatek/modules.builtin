@@ -1,0 +1,17 @@
+kernel/drivers/input/touchscreen/mediatek/O22/chipone-tddi/chipone-tddi.ko
+kernel/drivers/input/touchscreen/mediatek/O22/jdchipset/jadard_module.ko
+kernel/drivers/input/touchscreen/mediatek/O22/jdchipset/jadard_ic_JD9522T.ko
+kernel/drivers/input/touchscreen/mediatek/O22/jdchipset/jadard_common.ko
+kernel/drivers/input/touchscreen/mediatek/O22/jdchipset/jadard_platform.ko
+kernel/drivers/input/touchscreen/mediatek/O22/jdchipset/jadard_debug.ko
+kernel/drivers/input/touchscreen/mediatek/O22/jdchipset/jadard_sorting.ko
+kernel/drivers/input/touchscreen/mediatek/O22/jdchipset/jadard_sec.ko
+kernel/drivers/input/touchscreen/mediatek/O22/omnivision_tcm/omnivision_tcm_core_module.ko
+kernel/drivers/input/touchscreen/mediatek/O22/omnivision_tcm/omnivision_tcm_zeroflash.ko
+kernel/drivers/input/touchscreen/mediatek/O22/omnivision_tcm/omnivision_tcm_reflash.ko
+kernel/drivers/input/touchscreen/mediatek/O22/omnivision_tcm/omnivision_tcm_device.ko
+kernel/drivers/input/touchscreen/mediatek/O22/omnivision_tcm/omnivision_tcm_testing.ko
+kernel/drivers/input/touchscreen/mediatek/O22/omnivision_tcm/omnivision_tcm_csv_parser.ko
+kernel/drivers/input/touchscreen/mediatek/O22/omnivision_tcm/omnivision_tcm_recovery.ko
+kernel/drivers/input/touchscreen/mediatek/O22/omnivision_tcm/omnivision_tcm_diagnostics.ko
+kernel/drivers/input/touchscreen/mediatek/O22/omnivision_tcm/omnivision_tcm_sec.ko

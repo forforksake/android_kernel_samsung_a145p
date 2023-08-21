@@ -1,0 +1,3 @@
+kernel/drivers/power/reset/reboot-mode.ko
+kernel/drivers/power/reset/syscon-reboot-mode.ko
+kernel/drivers/power/supply/mediatek/charger/sc8960x_charger.ko

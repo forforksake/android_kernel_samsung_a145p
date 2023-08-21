@@ -1,0 +1,9 @@
+kernel/drivers/input/touchscreen/mediatek/O22/omnivision_tcm/omnivision_tcm_core_module.ko
+kernel/drivers/input/touchscreen/mediatek/O22/omnivision_tcm/omnivision_tcm_zeroflash.ko
+kernel/drivers/input/touchscreen/mediatek/O22/omnivision_tcm/omnivision_tcm_reflash.ko
+kernel/drivers/input/touchscreen/mediatek/O22/omnivision_tcm/omnivision_tcm_device.ko
+kernel/drivers/input/touchscreen/mediatek/O22/omnivision_tcm/omnivision_tcm_testing.ko
+kernel/drivers/input/touchscreen/mediatek/O22/omnivision_tcm/omnivision_tcm_csv_parser.ko
+kernel/drivers/input/touchscreen/mediatek/O22/omnivision_tcm/omnivision_tcm_recovery.ko
+kernel/drivers/input/touchscreen/mediatek/O22/omnivision_tcm/omnivision_tcm_diagnostics.ko
+kernel/drivers/input/touchscreen/mediatek/O22/omnivision_tcm/omnivision_tcm_sec.ko
